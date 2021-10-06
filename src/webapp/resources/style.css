@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+.tables-block {
+    background-color: green;
+    height: 600px;
+    width: 800px;
+    font-size: 0;
+}
+.tables-block div {
+    display: inline-block;
+    overflow: auto;
+    font-size: 20px;
+}
+
+.users-table-block {
+    background-color: lightskyblue;
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+
+.add-user-block {
+    background-color: crimson	;
+    width: 40%;
+    height: 250px;
+}
+
+.update-user-block {
+    background-color: yellow;
+    width: 40%;
+    height: 250px;
+}
+
+.delete-user-block {
+    background-color: grey;
+    width: 40%;
+    height: 100px;
+}
+
+.users-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.users-table th, .users-table td {
+    border: 1px solid black;
+    padding: 2px 4px;
+}
